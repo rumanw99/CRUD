@@ -1,38 +1,122 @@
-.App {
-  text-align: center;
+*{
+  margin: 0;
+  box-sizing: border-box;
+}
+body{
+  background-color: bisque;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.add{
   display: flex;
-  flex-direction: column;
-  align-items: center;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
+  align-items: center;
+  flex-direction: column;
+  gap: 20px;
+}
+.add h1{
+  background-color: rgb(226, 230, 179);
+  color: rgb(170, 46, 46);
+  font-size: 50px;
+  width:75%;
+  height: 100px;
+  margin-top: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 20px;
+}
+.addForm{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 40px;
+  gap: 10px;
+}
+
+.addForm input{
+    width: 30%;
+    height: 100%;
+    border: none;
+    border-radius: 20px;
+}
+
+.addForm button{
+    width: 10%;
+    height: 100%;
+    border: none;
+    border-radius: 20px;
+    background-color: rgb(170, 46, 46);
+    color: white;
+    cursor: pointer;
+}
+
+.add ul{
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  gap: 10px;
+  margin-right: 35px;
+  margin-top: 40px;
+}
+.ward1{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 15px;
+  width: 100%;
+  margin: 0 auto;
+  height: 30px;
+}
+.ward1 span{
+  width: 30%;
+  height: 100%;
+  background-color: #fff;
+  border-radius: 20px;
+  padding: 5px 10px 0;
+}
+.ward1 .bit{
+  width: 10%;
+  height: 100%;
+  display: flex;
+  justify-content:center;
+  align-items: center;
+  gap: 10px;
+}
+.ward1 .bit button{
+  width: 50%;
+  height: 100%;
+  border: none;
+  border-radius: 20px;
+  background-color: rgb(170, 46, 46);
   color: white;
+  cursor: pointer;
+}
+.ward2{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 15px;
+  width: 100%;
+  margin: 0 auto;
+  height: 30px;
 }
 
-.App-link {
-  color: #61dafb;
+.ward2 input{
+  width: 30%;
+  height: 100%;
+  background-color: #fff;
+  border-radius: 20px;
+  padding: 5px 10px 0;
 }
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.ward2 button{
+  width: 10%;
+  height: 100%;
+  border: none;
+  border-radius: 20px;
+  background-color: rgb(170, 46, 46);
+  color: white;
+  cursor: pointer;
 }
